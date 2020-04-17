@@ -15,5 +15,4 @@ sed -i '/helloworld/ a src-git helloworld https://github.com/fw876/helloworld ' 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 sed -i 's/1.1.1.1/18.180.163.163/g' package/lean/luci-app-nps/root/etc/config/nps
-sed -i 's/aaa/653020/g' package/lean/luci-app-nps/root/etc/config/nps
 sed -i 's/option crypt '1'/option crypt '0'/g' package/lean/luci-app-nps/root/etc/config/nps
