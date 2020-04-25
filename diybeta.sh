@@ -7,7 +7,7 @@
 #=================================================
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.12.1/g' package/base-files/files/bin/config_generate
-git clone https://github.com/esirplayground/luci-theme-atmaterial-ColorIcon package/luci-theme-atmaterial-ColorIcon
+git clone https://github.com/yangsongli/luci-theme-atmaterial package/luci-theme-atmaterial
 git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
 git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan 
