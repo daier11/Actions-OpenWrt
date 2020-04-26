@@ -11,7 +11,7 @@ git clone https://github.com/yangsongli/luci-theme-atmaterial package/luci-theme
 git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 git clone https://github.com/pymumu/openwrt-smartdns feeds/packages/net/openwrt-smartdns
-git clone https://github.com/pymumu/luci-app-smartdns.git -b lede package/luci-app-smartdns
+git clone https://github.com/pymumu/luci-app-smartdns.git -b lede feeds/luci/applications/luci-app-smartdns
 #git clone https://github.com/fw876/helloworld feeds/helloworl
 sed -i '/helloworld/ a src-git helloworld https://github.com/fw876/helloworld ' feeds.conf.default
 #git clone https://github.com/fw876/helloworld/tree/master/luci-app-ssr-plus package/luci-app-ssr-plus
